@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "with = device-width, initial-scale = 1.0">
+    <title>Resources for Refugees - MakeUC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>  
+<body>
+    <section class ="header">
+        <nav>
+            <a href="index.html"><img scr = "images\image12.png" alt ="Website's logo"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">RESOURCES</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+    <div class="text-box">
+        <h1>Resources for Refugees</h1>
+        <p> Find information about refugee friendly countries, resettlement programs,<br> employment opportunities and networks for refugees around the world. 
+            
+        </p>
+        <a href="" class="hero-btn">Follow Us To Know More</a>
+    </div>
+
+    </section>
+
+<!-- ____________Resources________ -->
+<section class="resource">
+    <h1>Available Resources</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Mauris massa massa, ullamcorper in rutrum elementum, volutpat euismod felis. Aliquam lobortis at eros at efficitur.</p>
+    
+    <div class="row">
+        <div class="resource-col">
+            <h3>Resettlement Programs</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <br>Mauris massa massa, ullamcorper in rutrum elementum, volutpat euismod felis. Aliquam lobortis at eros at efficitur.</p>
+        </div>
+        <div class="resource-col">
+            <h3>Job opportunities</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <br>Mauris massa massa, ullamcorper in rutrum elementum, volutpat euismod felis. Aliquam lobortis at eros at efficitur.</p>
+        </div>
+        <div class="resource-col">
+            <h3>Educational Opportunities</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <br>Mauris massa massa, ullamcorper in rutrum elementum, volutpat euismod felis. Aliquam lobortis at eros at efficitur.</p>
+        </div>
+        <div class="resource-col">
+            <h3>Networks</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <br>Mauris massa massa, ullamcorper in rutrum elementum, volutpat euismod felis. Aliquam lobortis at eros at efficitur.</p>
+        </div>
+   
+    </div>
+
+</section>
+
+<!-- connect-->
+<section class="connect">
+    <h1>Connect With Refugees Worldwide</h1>
+    <p1>You can connect with people a willing to open their doors for you. 
+        <br> You are not alone</p1>
+
+    <div class="row">
+        <div class="connect-col">
+            <img scr="images\image12.png">
+        </div>
+
+    </div>
+</section>
+
+<!-- No time to continue -->
+
+
+
+
+
+
+
+
+
+<!-- Javascript for Toggle Menu -->
+
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+</body>  
+</html>
